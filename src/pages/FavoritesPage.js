@@ -1,7 +1,7 @@
 import React from 'react';
 import { useFavorites } from '../context/FavoritesContext';
 import MealCard from '../components/MealCard';
-
+// Favorites page with Context API
 function FavoritesPage() {
   const { favorites, removeFavorite } = useFavorites();
 

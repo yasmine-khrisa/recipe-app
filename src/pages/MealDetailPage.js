@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useFavorites } from '../context/FavoritesContext';
-
+// Meal detail page
 function MealDetailPage() {
   const { id } = useParams();
   const navigate = useNavigate();

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import MealCard from '../components/MealCard';
-
+// Home page with GET API integration
 function HomePage() {
   const [meals, setMeals]     = useState([]);
   const [search, setSearch]   = useState('');
