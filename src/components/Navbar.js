@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useFavorites } from '../context/FavoritesContext';
-
+// Navbar component 
 function Navbar() {
   const { favorites } = useFavorites();
 

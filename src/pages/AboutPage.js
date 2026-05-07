@@ -1,5 +1,5 @@
 import React from 'react';
-
+// About page
 function AboutPage() {
   const features = [
     { icon: '⚛️', title: 'React Hooks', desc: 'useState and useEffect' },

@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import { useFavorites } from '../context/FavoritesContext';
-
+// MealCard component with Styled Components 
 const StyledCard = styled.div`
   border-radius: 12px;
   overflow: hidden;
