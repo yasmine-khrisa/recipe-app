@@ -8,6 +8,7 @@ import FavoritesPage  from './pages/FavoritesPage';
 import ContactPage    from './pages/ContactPage';
 import AboutPage      from './pages/AboutPage';
 
+// App.js - setup routing, context API, and navigation
 function App() {
   return (
     <FavoritesProvider>

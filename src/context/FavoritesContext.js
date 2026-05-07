@@ -1,5 +1,5 @@
 import React, { createContext, useState, useContext } from 'react';
-
+// global state management
 const FavoritesContext = createContext();
 
 export function FavoritesProvider({ children }) {
