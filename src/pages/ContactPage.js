@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+// Contact page with POST API integration
 function ContactPage() {
   const [form, setForm]               = useState({ name: '', email: '', message: '' });
   const [loading, setLoading]         = useState(false);
